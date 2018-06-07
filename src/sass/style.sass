@@ -1,0 +1,39 @@
+
+// NAVBAR
+.navContainer
+  background: #861b1b
+  border-radius: 40px
+  width: 95%
+  margin: 5px auto
+  padding: 5px
+  box-shadow: 2px 2px 10px #666
+// HAMBURGER
+.navbar-toggler
+  height: 40px
+  padding-top: 18px
+  .hamburger
+    width: 30px
+    height: 3px
+    background: #bbb
+    position: relative
+    transition: .6s
+    &::before
+      @extend .hamburger
+      position: absolute
+      top: 9px
+      content: ''
+    &::after
+      @extend .hamburger
+      position: absolute
+      top: -9px
+      content: ''
+.cross
+  .hamburger
+    background: transparent
+    &::before
+      transform: rotate(225deg)
+      top: 0
+    &::after
+      transform: rotate(-225deg)
+      top: 0
+// END NAVBAR
