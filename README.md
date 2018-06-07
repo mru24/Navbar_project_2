@@ -1,2 +1,2 @@
-# PORTFOLIO
-Here is my first Github Repository and my portfolio web page.
+# NAVBAR 2
+Customized Bootstrap navbar with rounded corners.
